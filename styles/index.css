@@ -196,12 +196,14 @@ h1 , h2 , p{
 
 @media screen and (max-width:576px) {
     header{
-        padding-top: 60px;
+        padding-top: 100px;
         box-shadow: none;
        
         flex-direction: column;
         align-items: center;
         transform: scale(.8);
+        position: relative;
+        right: 10px;
     }
  
     nav ul{
@@ -271,6 +273,7 @@ h1 , h2 , p{
 @media screen and (min-width:577px) and (max-width:960px) {
   
     .gamer{
+        width: 100%;
         transform: scale(.7);
     }
     nav ul{
@@ -280,6 +283,16 @@ h1 , h2 , p{
         width: 150px;
 
 
+    }
+    .section-1{
+        
+        transform: scale(.75);
+        background: none;
+        position: relative;
+        bottom: 50px;
+    }
+    .title p{
+        width: 100%;
     }
     
 }

@@ -308,7 +308,7 @@ h1 , h2 , p{
 .img-hover{
     border-radius: 20px;
     box-shadow: 10px 10px 10px grey;
-    transition: transform .2s ease-in-out; 
+    transition: transform .5s ease-in-out; 
 }
 .btn-hover{
     border: 2px solid grey;
@@ -327,7 +327,7 @@ h1 , h2 , p{
     
 }
 
-.btn-hover:hover{
+.img-hover:hover .btn-hover:hover{
     
   
     border-radius: 20px;
